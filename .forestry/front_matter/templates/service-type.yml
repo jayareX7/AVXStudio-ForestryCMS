@@ -22,20 +22,10 @@ fields:
     schema:
       format: markdown
   label: Service Description
-- name: starting_cost
-  type: number
-  label: Starting Cost
-  description: ''
-  default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
-- name: type_of_service
+- name: type_of_service_tags_
   type: include
   config: {}
-  template: select-service-single-component
-  label: Type of Service
+  template: tags
+  label: Type of Service(tags)
 pages:
 - service-type/types-of-services.md
