@@ -1,4 +1,9 @@
 ---
 label: Portfolio
 hide_body: false
-fields: []
+fields:
+- name: portfolio_item
+  type: include
+  config: {}
+  template: portfolio-item
+  label: Portfolio Item
