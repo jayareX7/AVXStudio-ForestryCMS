@@ -8,55 +8,33 @@ fields:
   config:
     required: false
   label: Title
-- name: portfolio_item
-  type: field_group_list
-  fields:
-  - name: title
-    type: text
-    config:
-      required: false
-    label: Title
-  - name: subtitle
-    type: text
-    config:
-      required: false
-    label: Subtitle
-  - name: thumbnail
-    type: file
-    config:
-      maxSize: 64
-    label: Thumbnail
-  - name: service_date
-    type: datetime
-    description: ''
-    config:
-      required: false
-      date_format: 
-      time_format: 
-      display_utc: false
-    label: Service Date
-  - name: details
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Details
-  - name: design_tags
-    type: include
-    config: {}
-    template: tags
-    label: Design Tags
-  - name: tools
-    type: tag_list
-    default: []
-    label: Tools
+- name: subtitle
+  type: text
   config:
-    min: 
-    max: 
-    labelField: 
-  label: Portfolio Item
+    required: false
+  label: Subtitle
+- name: thumbnail
+  type: file
+  config:
+    maxSize: 64
+  label: Thumbnail
+- name: service_date
+  type: datetime
+  label: Service Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: details
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Details
 pages:
 - past-work/web-design.md
