@@ -20,6 +20,12 @@ fields:
 - name: social_media
   type: field_group_list
   fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    default: 'Platform : URL'
   - name: platform
     type: select
     default: []
