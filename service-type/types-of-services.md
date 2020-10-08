@@ -3,7 +3,7 @@ title: Types of Services
 description: Here is List of Services We Provide!
 services:
 - title: Visual Design
-  thumbnail: ''
+  thumbnail: "/alfons-taekema-bali.jpg"
   service_description: Visual Design
   starting_cost: 999
   type_of_services:
