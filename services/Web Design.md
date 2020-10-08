@@ -10,7 +10,10 @@ services:
   starting_cost: 350
   type_of_service: Web Design
   service_description: ''
-title: Types of Services
+title: Web Hosting
 description: Text Goes Here
+type_of_service: Web Design
+service_details: Host your website
+starting_cost: 19.99
 
 ---
