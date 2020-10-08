@@ -50,6 +50,15 @@ fields:
   type: image_gallery
   config: {}
   label: Image Gallery
+- name: test
+  type: blocks
+  label: test
+  template_types:
+  - team
+  - contact
+  config:
+    min: 
+    max: 
 pages:
 - past-work/waggy-walks-atl.md
 - past-work/web-design.md
