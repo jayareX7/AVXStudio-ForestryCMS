@@ -38,21 +38,21 @@ sections:
   path: ''
   label: List of Services
   create: documents
-  match: service-list
+  match: "*"
   templates:
   - service
 - type: directory
   path: ''
   label: Past Work
   create: documents
-  match: past-work
+  match: "*"
   templates:
   - portfolio-item
 - type: directory
   path: 'contact'
   label: Contact
   create: documents
-  match: contact
+  match: "*"
   templates:
   - contact
 upload_dir: public/static
