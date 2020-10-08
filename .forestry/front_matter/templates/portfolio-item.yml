@@ -36,5 +36,10 @@ fields:
     schema:
       format: markdown
   label: Details
+- name: design_tools
+  type: include
+  config: {}
+  template: tools
+  label: Design Tools
 pages:
 - past-work/web-design.md
