@@ -26,3 +26,8 @@ fields:
     schema:
       format: markdown
   label: Bio
+- name: social_platforms
+  type: include
+  config: {}
+  template: social-platforms
+  label: Social Platforms
