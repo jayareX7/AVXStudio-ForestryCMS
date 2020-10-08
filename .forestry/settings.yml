@@ -19,8 +19,8 @@ sections:
   templates:
   - portfolio-item
 - type: directory
-  path: 'services'
-  label: Services
+  path: 'service-type'
+  label: Type of Service
   create: documents
   match: "*"
   templates:
@@ -35,15 +35,15 @@ sections:
   templates:
   - blog-post
 - type: directory
-  path: ''
-  label: List of Services
+  path: 'services'
+  label: Services
   create: documents
   match: "*"
   templates:
   - service
 - type: directory
-  path: ''
-  label: Past Work
+  path: 'past-work'
+  label: Past Works
   create: documents
   match: "*"
   templates:
