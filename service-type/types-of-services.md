@@ -13,7 +13,8 @@ services:
   service_description: Graphic Design
   starting_cost: 150
   type_of_service: Graphic Design
-  type_of_services: []
+  type_of_services:
+  - Graphic Design
 - title: Web Design
   thumbnail: "/icons/nextjs-black-logo.svg"
   service_description: Web Design
