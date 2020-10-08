@@ -20,24 +20,10 @@ sections:
 - type: heading
   label: Static Pages
 - type: directory
-  path: posts
-  label: Posts
-  create: documents
-  match: "*"
-  templates:
-  - blog-post
-- type: directory
   path: about-avx
   label: About Us
   create: documents
   match: "*"
-- type: directory
-  path: team-member
-  label: Team Member
-  create: documents
-  match: "*"
-  templates:
-  - team
 - type: directory
   path: service-type
   label: Types of Service
@@ -55,6 +41,13 @@ sections:
 - type: heading
   label: Dynamic Pages
 - type: directory
+  path: posts
+  label: Posts
+  create: documents
+  match: "*"
+  templates:
+  - blog-post
+- type: directory
   path: services
   label: Services
   create: documents
@@ -68,6 +61,13 @@ sections:
   match: "*"
   templates:
   - portfolio-item
+- type: directory
+  path: team-member
+  label: Team Member
+  create: documents
+  match: "*"
+  templates:
+  - team
 - type: directory
   path: shop
   label: Shop
