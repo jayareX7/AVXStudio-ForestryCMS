@@ -1,4 +1,22 @@
 ---
 label: Select Service
 hide_body: false
-fields: []
+fields:
+- name: type_of_service
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - Corporate Identity
+    - Web Design
+    - Visual Design
+    - Graphic Design
+    - Audio Design
+    - Marketing
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type of Service
