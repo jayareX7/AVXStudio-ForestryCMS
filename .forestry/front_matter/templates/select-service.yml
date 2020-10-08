@@ -1,5 +1,5 @@
 ---
-label: Select Service
+label: Select Service - multiple (component)
 hide_body: false
 fields:
 - name: type_of_services

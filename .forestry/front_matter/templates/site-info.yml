@@ -1,5 +1,5 @@
 ---
-label: Site Info
+label: Site Info (page)
 hide_body: false
 fields:
 - name: site_logo
