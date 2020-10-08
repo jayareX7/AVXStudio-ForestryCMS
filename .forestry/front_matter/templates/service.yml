@@ -44,12 +44,3 @@ fields:
     min: 
     max: 
     step: 
-- name: tools
-  type: tag_list
-  default: []
-  label: Tools
-- name: design_tags
-  type: include
-  config: {}
-  template: tags
-  label: Design Tags
