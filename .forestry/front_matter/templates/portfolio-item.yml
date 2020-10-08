@@ -39,3 +39,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- past-work/web-design.md
