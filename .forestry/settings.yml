@@ -12,13 +12,6 @@ sections:
 - type: heading
   label: Content Types
 - type: directory
-  path: portfolio
-  label: Portfolio
-  create: documents
-  match: "*"
-  templates:
-  - portfolio
-- type: directory
   path: service-type
   label: Type of Service
   create: documents
