@@ -20,3 +20,19 @@ fields:
       file: 
       path: 
   label: Type of Service
+- name: type_of_services
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - Corporate Branding
+    - Web Design
+    - Graphic Design
+    - Visual Design
+    - Audio Design
+    - Marketing
+  label: Type of Service
