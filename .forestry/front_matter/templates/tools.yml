@@ -1,4 +1,8 @@
 ---
 label: Tools
 hide_body: false
-fields: []
+fields:
+- name: design_tools
+  type: tag_list
+  default: []
+  label: Design Tools
