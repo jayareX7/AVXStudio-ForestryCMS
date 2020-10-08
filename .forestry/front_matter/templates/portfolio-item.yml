@@ -46,6 +46,10 @@ fields:
   config: {}
   template: tools
   label: Design Tools
+- name: image_gallery
+  type: image_gallery
+  config: {}
+  label: Image Gallery
 pages:
 - past-work/waggy-walks-atl.md
 - past-work/web-design.md
