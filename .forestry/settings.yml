@@ -24,6 +24,11 @@ sections:
   create: documents
   match: "*"
 - type: directory
+  path: team-member
+  label: Team Member
+  create: documents
+  match: "*"
+- type: directory
   path: service-type
   label: Types of Service
   create: documents
