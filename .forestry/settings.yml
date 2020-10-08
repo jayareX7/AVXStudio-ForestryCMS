@@ -18,8 +18,13 @@ sections:
   match: "*"
   templates:
   - service-type
-- type: heading
-  label: Dynamic Pages
+- type: directory
+  path: contact
+  label: Contact
+  create: documents
+  match: "*"
+  templates:
+  - contact
 - type: directory
   path: posts
   label: Posts
@@ -27,6 +32,8 @@ sections:
   match: "*"
   templates:
   - blog-post
+- type: heading
+  label: Dynamic Pages
 - type: directory
   path: services
   label: Services
@@ -41,13 +48,6 @@ sections:
   match: "*"
   templates:
   - portfolio-item
-- type: directory
-  path: contact
-  label: Contact
-  create: documents
-  match: "*"
-  templates:
-  - contact
 upload_dir: public/static
 public_path: ''
 front_matter_path: ''
