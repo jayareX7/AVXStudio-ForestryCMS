@@ -1,5 +1,5 @@
 ---
-title: Types of Services
+title: Corporate Branding
 description: Here is List of Services We Provide!
 services:
 - title: Visual Design
@@ -22,5 +22,13 @@ services:
   type_of_service: Web Design
   type_of_services:
   - Web Design
+thumbnail: ''
+service_description: ''
+starting_cost: 
+type_of_service: Corporate Branding
+design_tags:
+- Annual Reports
+- Corporate Identity
+- Logo
 
 ---
