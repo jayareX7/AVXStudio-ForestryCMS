@@ -36,5 +36,10 @@ fields:
     max: 
     step: 
   label: Contact Number
+- name: social_platforms
+  type: include
+  config: {}
+  template: social-platforms
+  label: Social Platforms
 pages:
 - data/audio-visual-design.yml
