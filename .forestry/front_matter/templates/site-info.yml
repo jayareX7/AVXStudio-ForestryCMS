@@ -24,8 +24,7 @@ fields:
     type: text
     config:
       required: false
-    label: Title
-    default: 'Platform : URL'
+    label: Platform Link
   - name: platform
     type: select
     default: []
@@ -47,11 +46,6 @@ fields:
         file: 
         path: 
     label: Platform
-  - name: platform_link
-    type: text
-    config:
-      required: false
-    label: Platform Link
   config:
     min: 
     max: 
