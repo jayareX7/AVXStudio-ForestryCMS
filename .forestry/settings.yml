@@ -10,7 +10,7 @@ sections:
   create: all
   match: "*"
 - type: heading
-  label: Content Types
+  label: Static Pages
 - type: directory
   path: service-type
   label: Type of Service
@@ -19,7 +19,7 @@ sections:
   templates:
   - service-type
 - type: heading
-  label: Pages
+  label: Dynamic Pages
 - type: directory
   path: posts
   label: Posts
