@@ -12,7 +12,7 @@ fields:
   config:
     required: false
   label: Site Name
-- name: site_header
+- name: title
   type: text
   config:
     required: false
