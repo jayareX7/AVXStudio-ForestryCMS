@@ -1,0 +1,55 @@
+---
+label: Service
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: type_of_service
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Corporate Branding
+    - Web Design
+    - Graphic Design
+    - Visual Design
+    - Audio Design
+    - Marketing
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type of Service
+- name: service_details
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Service Details
+- name: starting_cost
+  type: number
+  label: Starting Cost
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: tools
+  type: tag_list
+  default: []
+  label: Tools
+- name: design_tags
+  type: include
+  config: {}
+  template: tags
+  label: Design Tags

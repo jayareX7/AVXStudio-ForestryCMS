@@ -1,0 +1,35 @@
+---
+label: Portfolio Item
+hide_body: false
+display_field: title
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: portfolio_item
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: subtitle
+    type: text
+    config:
+      required: false
+    label: Subtitle
+  - name: thumbnail
+    type: file
+    config:
+      maxSize: 64
+    label: Thumbnail
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Portfolio Item
+pages:
+- Portfolio/item.md
