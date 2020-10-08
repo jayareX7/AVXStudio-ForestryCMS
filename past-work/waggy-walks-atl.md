@@ -14,5 +14,8 @@ type_of_services:
 - Marketing
 - Graphic Design
 - Corporate Branding
+image_gallery:
+- "/mahkeo-monkey.jpg"
+- "/waggy-walks-logo-half.jpg"
 
 ---
