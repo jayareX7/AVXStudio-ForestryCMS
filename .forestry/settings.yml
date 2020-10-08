@@ -10,6 +10,8 @@ sections:
   create: documents
   match: information.yml
   new_doc_ext: yml
+  templates:
+  - site-info
 - type: directory
   path: ''
   label: Root pages
