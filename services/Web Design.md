@@ -15,5 +15,9 @@ description: Text Goes Here
 type_of_service: Web Design
 service_details: Host your website
 starting_cost: 19.99
+type_of_services:
+- Marketing
+- Corporate Branding
+- Web Design
 
 ---
