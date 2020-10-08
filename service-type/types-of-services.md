@@ -20,6 +20,7 @@ services:
   service_description: Web Design
   starting_cost: 350
   type_of_service: Web Design
-  type_of_services: []
+  type_of_services:
+  - Web Design
 
 ---
