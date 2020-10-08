@@ -36,6 +36,8 @@ sections:
   label: Team Member
   create: documents
   match: "*"
+  templates:
+  - team
 - type: directory
   path: service-type
   label: Types of Service
