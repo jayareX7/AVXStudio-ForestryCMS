@@ -32,5 +32,10 @@ fields:
     min: 
     max: 
     step: 
+- name: type_of_service
+  type: include
+  config: {}
+  template: select-service-single-component
+  label: Type of Service
 pages:
 - service-type/types-of-services.md
