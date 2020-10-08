@@ -36,6 +36,10 @@ fields:
     schema:
       format: markdown
   label: Details
+- name: service_types
+  type: tag_list
+  default: []
+  label: Service Types
 - name: design_tools
   type: include
   config: {}
