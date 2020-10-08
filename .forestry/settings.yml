@@ -5,6 +5,12 @@ admin_path: admin
 webhook_url: 
 sections:
 - type: directory
+  path: data
+  label: information
+  create: documents
+  match: information.yml
+  new_doc_ext: ".yml"
+- type: directory
   path: ''
   label: Root pages
   create: all
