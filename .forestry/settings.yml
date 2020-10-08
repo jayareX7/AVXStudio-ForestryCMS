@@ -53,6 +53,11 @@ sections:
   match: "*"
   templates:
   - portfolio-item
+- type: directory
+  path: shop
+  label: Shop
+  create: documents
+  match: "*"
 upload_dir: public/static
 public_path: ''
 front_matter_path: ''
