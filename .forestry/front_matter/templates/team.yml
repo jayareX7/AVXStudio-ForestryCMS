@@ -31,3 +31,5 @@ fields:
   config: {}
   template: social-platforms
   label: Social Platforms
+pages:
+- team-member/christopher-mnunda.md
