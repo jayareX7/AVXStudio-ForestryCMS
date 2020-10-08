@@ -31,5 +31,3 @@ fields:
     max: 
     labelField: 
   label: Portfolio Item
-pages:
-- Portfolio/item.md

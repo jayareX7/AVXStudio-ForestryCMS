@@ -12,14 +12,14 @@ sections:
 - type: heading
   label: Content Types
 - type: directory
-  path: 'portfolio'
+  path: portfolio
   label: Portfolio
   create: documents
   match: "*"
   templates:
   - portfolio-item
 - type: directory
-  path: 'service-type'
+  path: service-type
   label: Type of Service
   create: documents
   match: "*"
@@ -28,28 +28,28 @@ sections:
 - type: heading
   label: Pages
 - type: directory
-  path: 'posts'
+  path: posts
   label: Posts
   create: documents
   match: "*"
   templates:
   - blog-post
 - type: directory
-  path: 'services'
+  path: services
   label: Services
   create: documents
   match: "*"
   templates:
   - service
 - type: directory
-  path: 'past-work'
+  path: past-work
   label: Past Works
   create: documents
   match: "*"
   templates:
   - portfolio-item
 - type: directory
-  path: 'contact'
+  path: contact
   label: Contact
   create: documents
   match: "*"

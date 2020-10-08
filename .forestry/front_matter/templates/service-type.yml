@@ -72,3 +72,5 @@ fields:
     max: 
     labelField: 
   label: Services
+pages:
+- service-type/types-of-services.md
