@@ -2,6 +2,11 @@
 label: Portfolio
 hide_body: false
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 - name: portfolio_item
   type: include
   config: {}
