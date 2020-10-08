@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: directory
   path: data
-  label: information
+  label: Site Info
   create: documents
   match: information.yml
   new_doc_ext: yml
