@@ -25,7 +25,7 @@ sections:
   match: "*"
 - type: directory
   path: service-type
-  label: Type of Service
+  label: Types of Service
   create: documents
   match: "*"
   templates:
