@@ -17,7 +17,7 @@ sections:
   create: documents
   match: "*"
   templates:
-  - portfolio-item
+  - portfolio
 - type: directory
   path: service-type
   label: Type of Service
