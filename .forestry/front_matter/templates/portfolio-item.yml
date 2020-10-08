@@ -31,3 +31,11 @@ fields:
     max: 
     labelField: 
   label: Portfolio Item
+- name: test
+  type: blocks
+  label: test
+  template_types:
+  - portfolio-item
+  config:
+    min: 
+    max: 
