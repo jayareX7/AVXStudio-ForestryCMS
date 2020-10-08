@@ -44,3 +44,5 @@ fields:
     min: 
     max: 
     step: 
+pages:
+- services/content-management.md
