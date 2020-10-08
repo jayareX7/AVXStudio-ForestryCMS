@@ -62,8 +62,8 @@ sections:
   templates:
   - portfolio-item
 - type: directory
-  path: team-member
-  label: Team Member
+  path: team-members
+  label: Team Members
   create: documents
   match: "*"
   templates:
