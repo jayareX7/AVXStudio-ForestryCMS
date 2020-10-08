@@ -1,4 +1,72 @@
 ---
 label: Site Info
 hide_body: false
-fields: []
+fields:
+- name: site_logo
+  type: file
+  config:
+    maxSize: 64
+  label: Site Logo
+- name: site_name
+  type: text
+  config:
+    required: false
+  label: Site Name
+- name: site_header
+  type: text
+  config:
+    required: false
+  label: Site Header
+- name: social_media
+  type: field_group_list
+  fields:
+  - name: platform
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - Facebook
+      - Twitter
+      - Instagram
+      - Pinterest
+      - Behance
+      - Dribble
+      - Youtube
+      - Vimeo
+      - Website/URL
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Platform
+  - name: platform_link
+    type: text
+    config:
+      required: false
+    label: Platform Link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Social Media
+- name: company_address
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Company Address
+- name: contact_number
+  type: number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  label: Contact Number
