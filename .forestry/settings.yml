@@ -8,8 +8,7 @@ sections:
   path: data
   label: Site Info
   create: documents
-  match: information.yml
-  new_doc_ext: yml
+  match: "*"
   templates:
   - site-info
 - type: directory
