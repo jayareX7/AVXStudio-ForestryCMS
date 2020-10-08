@@ -8,22 +8,9 @@ fields:
     required: false
   label: Title
 - name: type_of_service
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - Corporate Branding
-    - Web Design
-    - Graphic Design
-    - Visual Design
-    - Audio Design
-    - Marketing
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
+  type: include
+  config: {}
+  template: select-service
   label: Type of Service
 - name: service_details
   type: textarea
