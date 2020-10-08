@@ -47,4 +47,5 @@ fields:
   template: tools
   label: Design Tools
 pages:
+- past-work/waggy-walks-atl.md
 - past-work/web-design.md
